@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="includes">
+      <UniqueIdentifier>{5f2927f5-5897-44b4-9b32-914c50ea7a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{91c7bf4f-ed4a-4767-902f-c000f544b0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{87024c42-112b-453b-ab28-4625bb3e5da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{248f8402-b65a-4233-9602-d40a21df0f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{4baa0b4c-0cb8-426e-8477-c1abb3f4c7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\overlay">
+      <UniqueIdentifier>{8276f30c-1073-4295-83be-dca7ff9ccb35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\framework.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hpp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\framework.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hpp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

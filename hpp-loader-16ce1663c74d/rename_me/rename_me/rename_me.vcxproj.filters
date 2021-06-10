@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\drawing.cpp" />
+    <ClCompile Include="src\guard.cpp" />
+    <ClCompile Include="src\license.cpp" />
+    <ClCompile Include="src\page_list.cpp" />
+    <ClCompile Include="src\rename_me.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="includes\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\framework.cpp" />
+    <ClCompile Include="src\security.cpp" />
+    <ClCompile Include="includes\easywsclient\easywsclient.cpp">
+      <Filter>easywebsocket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\drawing.h" />
+    <ClInclude Include="src\enums.h" />
+    <ClInclude Include="src\framework.h" />
+    <ClInclude Include="src\guard.h" />
+    <ClInclude Include="src\image_logo.h" />
+    <ClInclude Include="src\license.h" />
+    <ClInclude Include="src\page_list.h" />
+    <ClInclude Include="src\rename_me.h" />
+    <ClInclude Include="src\targetver.h" />
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="src\vmprotectsdk.h" />
+    <ClInclude Include="includes\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imgui_lucida-grande.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\security.h" />
+    <ClInclude Include="includes\easywsclient\easywsclient.hpp">
+      <Filter>easywebsocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{b97c3594-63ae-4373-b4ec-43b3dba07433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="easywebsocket">
+      <UniqueIdentifier>{dc9c3ee0-6d11-4211-9288-fe670c23f7f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

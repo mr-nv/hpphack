@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="rename_me.exe" Options="1023944">
+        <Messages />
+        <Folders />
+        <Procedures>
+            <Procedure MapAddress="Initialize(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="WndProc(struct HWND__ *,unsigned int,unsigned int,long)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CDrawing::Run(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CLicense::GetHardwareId(void)" Options="0" CompilationType="2" />
+            <Procedure MapAddress="CPageList::Swap(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CPageList::Push(char const *,class std::A6AXXZ::function)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="LicenseThread(void)" Options="0" CompilationType="2" />
+            <Procedure MapAddress="CLicense::GetBuildsResponse(class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; const &amp;)" Options="0" CompilationType="2" />
+            <Procedure MapAddress="FindArgument(class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;,int,class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="GetUrlData(class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; const &amp;,int)" Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;Hpp Loader&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;ROOT\CIMV2&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;SELECT * FROM Win32_BaseBoard&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;WQL&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;SerialNumber&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;SELECT * FROM Win32_BIOS&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;SELECT * FROM Win32_ComputerSystemProduct&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;UUID&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;SELECT * FROM Win32_DesktopMonitor&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;PNPDeviceID&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;SELECT * FROM Win32_DiskDrive&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;MediaType&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;Fixed&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;/hpp/sockets/server.php?product=0&amp;req=getbuilds&amp;hwid=&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;hpp_cs16&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;&amp;product=1&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;hpp_csgo&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;&amp;product=2&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;Hpp Hack&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;hpp.ovh&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;HTTP/1.1&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;GET&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;/hpp/sockets/server.php?req=download&amp;hwid=&quot;' Index="0" Options="0" />
+            <Procedure MapAddress="DownloadThread(void)" Options="0" CompilationType="2" />
+            <Procedure MapAddress="FindProcessId(class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CopyToClipboard(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="LookingProcessThread(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CDrawing::CDrawing(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetDarkTheme(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetWhiteTheme(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="InjectingThread(void)" Options="0" CompilationType="2" />
+            <Procedure MapAddress="HexToString(class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt; const &amp;)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetValueInt(char const *,char const *,int,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="GetLoaderSettingsPath(void)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="SetValueBool(char const *,char const *,bool,char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;/hpp/sockets/loader.php?version=&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;/hpp/sockets/loader.php?download=yes&quot;' Index="0" Options="0" />
+            <Procedure MapAddress="CDrawing::`scalar deleting destructor&apos;(unsigned int)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CPageList::Call(char const *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="vector_getter(void *,int,char const * *)" Options="0" CompilationType="1" />
+            <Procedure MapAddress="CheckForUpdates(void)" Options="0" CompilationType="2" />
+            <Procedure MapAddress='string &quot;ProcessHacker&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;Window&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;Cheat Engine&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;Qt5QWindowIcon&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;OllyDbg&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;Wireshark&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;TStdHttpAnalyzerForm&quot;' Index="0" Options="0" />
+            <Procedure MapAddress='string &quot;PROCEXPL&quot;' Index="0" Options="0" />
+            <Procedure MapAddress="CGuard::Run(void)" Options="0" CompilationType="2" />
+            <Procedure MapAddress="GuardThread(void)" Options="0" CompilationType="2" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script />
+    <LicenseManager />
+</Document>
